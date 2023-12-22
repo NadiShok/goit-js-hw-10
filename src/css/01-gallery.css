@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 1440px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.gallery {
+  margin: 0;
+  padding: 24px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100 - 48) / 3);
+}
